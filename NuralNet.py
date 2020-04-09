@@ -13,10 +13,14 @@ Y = np.array(Y)
 # here set the number of neurons in each layer.
 def set_neurons():
     print("Enter number of neurons of Input Layer: ")
+    # Take x_n as 2 because we are doing "OR Problem".
     x_n = int(input())
+    
     print("Enter number of neurons of Hidden Layer: ")
+    # h_n can be any number but 2/3 is more optimised.
     h_n = int(input())
     print("Enter number of neurons of Output Layer: ")
+    # o_n is 1 as there is only one possible output (0/1).
     o_n = int(input())
     neurons = {"x_n":x_n, "h_n":h_n, "o_n":o_n}
     return(neurons)
