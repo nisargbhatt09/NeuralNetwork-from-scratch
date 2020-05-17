@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 data = [[0,0], [0,1], [1,0], [1,1]]
 X = np.array(data)
 X = X.T
+
 Y = [[0,1,1,1]]
 Y = np.array(Y)
 
