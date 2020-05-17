@@ -107,10 +107,8 @@ plt.show()
 print(costl[len(costl)-2]-costl[len(costl)-1])
 
 # Taking Input From User
-print("Enter First Input: ")
-inp1 = int(input())
-print("Enter Second Input: ")
-inp2 = int(input())
+inp1 = int(input("Enter First Input: "))
+inp2 = int(input("Enter Second Input: "))
 ls = [inp1, inp2]
 print(ls)
 inp = np.array(ls)
