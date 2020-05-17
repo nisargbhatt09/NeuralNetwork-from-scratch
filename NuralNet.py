@@ -13,16 +13,14 @@ Y = np.array(Y)
 
 # here set the number of neurons in each layer.
 def set_neurons():
-    print("Enter number of neurons of Input Layer: ")
     # Take x_n as 2 because we are doing "OR Problem".
-    x_n = int(input())
+    print()
+    x_n = int(input("---Enter number of neurons of Input Layer---: "))
     
-    print("Enter number of neurons of Hidden Layer: ")
     # h_n can be any number but 2/3 is more optimised.
-    h_n = int(input())
-    print("Enter number of neurons of Output Layer: ")
+    h_n = int(input("---Enter number of neurons of Hidden Layer---: "))
     # o_n is 1 as there is only one possible output (0/1).
-    o_n = int(input())
+    o_n = int(input("---Enter number of neurons of Output Layer---: "))
     neurons = {"x_n":x_n, "h_n":h_n, "o_n":o_n}
     return(neurons)
 
@@ -104,17 +102,16 @@ for i in range(iterations):
 
 plt.plot(costl)
 plt.show()
-print(costl[len(costl)-2]-costl[len(costl)-1])
 
 # Taking Input From User
-inp1 = int(input("Enter First Input: "))
-inp2 = int(input("Enter Second Input: "))
+print()
+inp1 = int(input("---Enter First Input---: "))
+inp2 = int(input("---Enter Second Input---: "))
 ls = [inp1, inp2]
-print(ls)
+print("\nInput: ", ls)
 inp = np.array(ls)
 inp = inp.T
 inp = np.array(inp)
 inp = np.reshape(inp, (2,1))
-print("inp",np.shape(inp))
 z1, a1, z2, a2 = forward_prop(inp, w1, w2)
-print("A2=", a2)
+print("\n***************************\nA2(Output)=", a2, "\n***************************")
