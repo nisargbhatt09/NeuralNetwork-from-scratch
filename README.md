@@ -5,7 +5,7 @@ This is a project in which I am demonstrating a one hidden layered neural networ
 <br/>The purpose of a neural network is to provide a non linear function to the complex data to fit, so the most primary example we can use is Logic Gates (It is the Hello World for neural nets).
 <br/>So for example I am taking XOR Gate as training data. You can feed your own data to this network.
 <br/>![image_table](images/TRUTH-TABLE-1.jpg)
-<br/><br/> Now for this example we have 2 inputs so we will set input_nodes = 2, hidden_nodes = 3(can be any number for you), output_nodes = 1(because the output value can be either 0 or 1)
+<br/><br/> Now for this example we have 2 inputs so we will set input_nodes = 2, hidden_nodes = 3(can be any number for you), output_nodes = 1(because there is only one output value either 0 or 1)
 <br/><br/>So what actually happens here??
 <br/>First the training data(here the data and y) is fed to the input layer of network. Each node in the layer or the network has a math function, that predicts a hypotheses by given formula.
 
