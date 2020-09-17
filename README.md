@@ -31,4 +31,7 @@ As we have currently worked on the output_layer, we will persuit to the hidden_l
 <br/>The equation for Gradient Descent is as below:
 <br/><br/>![image](Grad_desc_formula.jpg)
 
-<br/>
+<br/>After we get Convergance we can stop the iterations and then the model is usable for test data.
+
+## Conclusion:
+We have made a complete one-hidden layered Neural Network using numpy and matplotlib and understood the concepts of Basics of Neural Networks.
