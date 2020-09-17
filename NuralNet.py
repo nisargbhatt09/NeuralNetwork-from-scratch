@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 data = [[0,0], [0,1], [1,0], [1,1]]
 X = np.array(data)
 X = X.T
-
-Y = [[0,1,1,1]]
+# for XOR Gate...
+Y = [[0,1,1,0]]
 Y = np.array(Y)
 
 # here set the number of neurons in each layer.
