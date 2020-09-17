@@ -1,0 +1,6 @@
+Grad_desc.png: https://cdn-images-1.medium.com/max/1600/0*fU8XFt-NCMZGAWND.
+Grad_desc_formula.jpg: https://hackernoon.com/hn-images/0*8yzvd7QZLn5T1XWg.jpg
+Loss.png: https://miro.medium.com/max/875/1*dEZxrHeNGlhfNt-JyRLpig.png
+TRUTH-TABLE-1.jpg: https://www.electronicshub.org/wp-content/uploads/2015/07/TRUTH-TABLE-1.jpg
+one_layered_network.jpeg: https://miro.medium.com/max/875/1*_M4bZyuwaGby6KMiYVYXvg.jpeg
+sigmoid.jfif: https://qphs.fs.quoracdn.net/main-qimg-6b67bea3311c3429bfb34b6b1737fe0c
