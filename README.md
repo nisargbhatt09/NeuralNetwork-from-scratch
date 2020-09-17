@@ -14,10 +14,10 @@ Here *W* is the weight and *b* is the bias.
 
 Then Y is given to an activation function here we are using "sigmoid function" 
 <br/>![image](images/sigmoid.jfif)
-<br/>The output of sigmoid function is represented as 'a', and as this is the first activated value we will represent it by a<sup>[1]</sup>
-<br/><br/>Sigmoid Function will give the output ranging between [0, 1].
-<br/><br/>By doing this to input_layer, these same steps are being repeated in the hidden layer but here the "X" is the a<sup>[1]</sup>.
-<br/>And the output_layer will give some output ranging between [0, 1], so now we have to check whether the answer is right or wrong and if wrong how much we are wrong to predict.
+<br/>The output of sigmoid function is represented as 'a', and as this is the activation value from first layer we will represent it by a<sup>[1]</sup>
+<br/><br/>Sigmoid Function will give the output that will range between [0, 1].
+<br/><br/>By doing this to input_layer, we have to repeat the same steps for the hidden_layer but here the "X" must be replaced to a<sup>[1]</sup>.
+<br/>And the output_layer will give some output that would range between [0, 1], so now we have to check whether the answer is right or wrong and if wrong how much our prediction is wrong from the actual output.
 <br/>To find the error in our prediction and actual output is called as *Cost Function*.
 <br/>And *Cost Function* is represented by **J**.
 <br/>![image](images/Loss.png)
