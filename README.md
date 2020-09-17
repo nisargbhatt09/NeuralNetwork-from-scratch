@@ -7,7 +7,7 @@ This is a project in which I am demonstrating a one hidden layered neural networ
 <br/>![image_table](images/TRUTH-TABLE-1.jpg)
 <br/><br/> Now for this example we have 2 inputs so we will set input_nodes = 2, hidden_nodes = 3(can be any number for you), output_nodes = 1(because there is only one output value either 0 or 1)
 <br/><br/>So what actually happens here??
-<br/>First the training data(here the data and y) is fed to the input layer of network. Each node in the layer or the network has a math function, that predicts a hypotheses by given formula.
+<br/>First the training data(here the *data* and *Y*) is fed to the input layer of network. Each node in the layer or the network has a math function, that predicts a hypotheses by given formula.
 
 ## Y = W<sup>T</sup>X + b
 Here *W* is the weight and *b* is the bias.
