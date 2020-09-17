@@ -18,11 +18,17 @@ Then Y is given to an activation function here we are using "sigmoid function"
 <br/><br/>Sigmoid Function will give the output ranging between [0, 1].
 <br/><br/>By doing this to input_layer, these same steps are being repeated in the hidden layer but here the "X" is the a<sup>[1]</sup>.
 <br/>And the output_layer will give some output ranging between [0, 1], so now we have to check whether the answer is right or wrong and if wrong how much we are wrong to predict.
-<br/>To find the error in our prediction and actual output is called as *Loss Function*.
-<br/>And *Loss Function* is represented by **J**.
+<br/>To find the error in our prediction and actual output is called as *Cost Function*.
+<br/>And *Cost Function* is represented by **J**.
 <br/>![image](Loss.png)
 
-<br/>Everything that happened till now is called as ***Forward Propagation*** that is because our flow was from input to output. But now we have the loss and we have to improve our prediction so we have to tune our Weights and Biases by going towards Input Layer and tuning all the parameters.
+<br/>Everything that happened till now is called as ***Forward Propagation*** that is because our flow was from input to output. But now we have the Cost and we have to improve our prediction so we have to tune our Weights and Biases by going towards Input Layer and tuning all the parameters.
 ## Back Propagation:
 As we have currently worked on the output_layer, we will persuit to the hidden_layer (we have only one hidden layer) and perform *Gradient Descent*.
 <br/>![image](Grad_desc.png)
+<br/><br/>Our goal is to reduce the Cost, in other words we want to reach the smallest possible value of cost function (Global Minima of it).
+<br/>To achieve this we have to gradually change the parameters so we need a *Learning Rate* "alpha" that decides the rate of change of the Gradient Descent. If the alpha is too small it will take so much time to reach the global minima and if alpha is too big then we may miss the global minima and get higher and higher Cost, this is called "Exploding Gradient Problem", to prevent it we must have a precise value of alpha.
+<br/>The equation for Gradient Descent is as below:
+<br/><br/>![image](Grad_desc_formula.jpg)
+
+<br/>
