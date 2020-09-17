@@ -1,5 +1,5 @@
 # NeuralNetwork-from-scratch
-This is a project in which I have created a one hidden layered neural network from scratch using numpy and matplotlib.<br/>
+This is a project in which I have demonstrated a one hidden layered neural network from scratch using numpy and matplotlib.<br/>
 <br/>![image](images/one_layered_network.jpeg)
 <br/><br/>As shown in the image there are 'm' nodes in input_layer, 'n' nodes in the hidden_layer and one node in output_layer.
 <br/>The purpose of a neural network is to provide a non linear function to the complex data to fit, so the most primary example we can use is Logic Gates (It is the Hello World for neural nets).
