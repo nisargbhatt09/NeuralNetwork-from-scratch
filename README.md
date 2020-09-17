@@ -21,3 +21,8 @@ Then Y is given to an activation function here we are using "sigmoid function"
 <br/>To find the error in our prediction and actual output is called as *Loss Function*.
 <br/>And *Loss Function* is represented by **J**.
 <br/>![image](Loss.png)
+
+<br/>Everything that happened till now is called as ***Forward Propagation*** that is because our flow was from input to output. But now we have the loss and we have to improve our prediction so we have to tune our Weights and Biases by going towards Input Layer and tuning all the parameters.
+## Back Propagation:
+As we have currently worked on the output_layer, we will persuit to the hidden_layer (we have only one hidden layer) and perform *Gradient Descent*.
+<br/>![image](Grad_desc.png)
